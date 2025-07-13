@@ -41,7 +41,7 @@ CREATE TABLE ProductInventory (
 
 --changeset mate.acamemy:5 labels:0.0.2
 CREATE TABLE Users(
-    ID INT AUTO_INCREMENT,
+    ID INT AUTO_INCREMENT PRIMARY KEY,
     FirstName VARCHAR(50),
     LastName VARCHAR(50),
     Email VARCHAR(75)
